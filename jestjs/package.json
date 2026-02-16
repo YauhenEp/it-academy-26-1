@@ -1,8 +1,8 @@
 {
-  "name": "async",
+  "name": "jestjs",
   "version": "1.0.0",
   "description": "",
-  "main": "sol.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,9 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fs-extra": "^11.3.3"
-  },
-  "devDependencies": {
-    "@types/fs-extra": "^11.0.4"
+    "jest": "^30.2.0"
   }
 }

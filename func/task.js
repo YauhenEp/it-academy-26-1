@@ -14,14 +14,14 @@ let ssa1 = [
 
   // [{name: "a", square: "120"},{name: "b", square: "168"},{name: "c", square: "165"}]
 
-//   function calculateSquare(array) {
-//     return array.map(item => {
-//         return {
-//             name: item.name,
-//             square: item.width * item.height
-//         }
-//     })
-//   }
+  function calculateSquare(array) {
+    return array.map(item => {
+        return {
+            name: item.name,
+            square: item.width * item.height
+        }
+    })
+  }
 
 
 //   function calculateSquare1(array) {
