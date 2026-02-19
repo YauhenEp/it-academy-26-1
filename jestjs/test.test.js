@@ -1,7 +1,10 @@
 // import {expect} from "chai"
 const {calculateSquare, getPromise} = require("./feature.js")
 
+const mock = jest.fn()
+
 describe('Our first test suite', function() {
+    // const a = new mock()
     const ssa1 = [
         {name: "a", width: "10", height: "12"},
         {name: "b", width: "12", height: "14"},
@@ -47,6 +50,13 @@ describe('Our first test suite', function() {
     ])('should return promise %s with options %i', async (value, timeout) => {
         const result = await getPromise(value, timeout)
         expect(result).toEqual(value)
+    })
+
+    it('should check mock function', async () => {
+        expect(mock).toHaveBeenCalledTimes(0)
+        mock()
+        mock()
+        expect(mock).toHaveBeenCalledTimes(1)
     })
 
     // it('should be key square in new objects', async() => {

@@ -1,16 +1,16 @@
 {
-  "name": "jestjs",
+  "name": "jasmine",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "^30.2.0",
-    "jest-html-reporters": "^3.1.7"
+    "jasmine": "^6.0.0",
+    "jasmine-spec-reporter": "^7.0.0"
   }
 }

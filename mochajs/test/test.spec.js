@@ -12,6 +12,18 @@ describe('Our first test suite', function() {
         {name: "e", width: "19", height: "14"},
     ]
 
+    const obj = [
+        {string: 'fall', substr: 'fa'},
+        {string: 'spring', substr: 'ing'},
+        {string: 'autumn', substr: 'tu'}
+    ]
+
+    const testData = [
+        {value: 'Success', timeout: 300},
+        {value: 'Not', timeout: 250},
+        {value: 'Hello', timeout: 250}
+    ]
+
     before(async () => {
         console.log('I am running before all tests');
     })
@@ -29,7 +41,8 @@ describe('Our first test suite', function() {
     })
 
     it('true should be equal true', async () => {
-        expect(true).to.equal(false)
+        console.log('I am test')
+        expect(true).to.equal(true)
     })
 
     it('should be key square in new objects', async() => {
@@ -44,12 +57,16 @@ describe('Our first test suite', function() {
         expect(ssa1.length).to.equal(newArr.length)
     })
 
-    each([
-        {value: 'Success', timeout: 300},
-        {value: 'Not', timeout: 250},
-        {value: 'Hello', timeout: 250}
-    ]).it('should return promise after 3 seconds', async ({value, timeout}) => {
-        const result = await getPromise(value, timeout)
-        expect(result).to.equal(value)
+    testData.forEach(({value, timeout} = obj) => {
+        it(`should return promise after ${timeout} ms`, async () => {
+            const result = await getPromise(value, timeout)
+            expect(result).to.equal(value)
+        })
+    })
+
+    obj.forEach((obj) => {
+        it(`string ${obj.string} should contain substring ${obj.substr}`, async() => {
+            expect(obj.string).to.contain(obj.substr)
+        })
     })
 })
