@@ -1,6 +1,6 @@
 const axios = require('axios');
-const validator = require('jsonschema');
 const getCoverPhotosSchema = require('../schemas/get-cover-photos.v1.json')
+const https = require("https");
 
 describe('GET /cover-photos', () => {
     let response;
