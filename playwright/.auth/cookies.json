@@ -1,0 +1,369 @@
+{
+  "cookies": [
+    {
+      "name": "ouid",
+      "value": "snyBDGmpuEggP/QqEYa5Ag==",
+      "domain": ".onliner.by",
+      "path": "/",
+      "expires": 1804266437.506055,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "pi",
+      "value": "BnG5hLAXqZaE/PuemfExx9kXiBk+2qQXhNoCN9nDrcheGz7nMS/eUMnGkv4/m79bjpQO6IEt2VXyG7eCoVb0dUf9K3U=",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1807290438.53971,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://onliner.by",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "i",
+      "value": "02SfL29iKfy+DsrYBQHWvHpPsQEk/ZZhxwG+gKNpQwC6XW010ewJOlQbtzmO18t0AxvhiX/7uquPI4mRQTmcR1CmLS8=",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1807290438.539897,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yandexuid",
+      "value": "8249716081772730441",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1807290438.539948,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yashr",
+      "value": "410115081772730441",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1804266441,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://onliner.by",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "bh",
+      "value": "EigiQ2hyb21pdW0iO3Y9IjE0NSIsICJOb3Q6QS1CcmFuZCI7dj0iOTkiKgI/MDoJIldpbmRvd3MiYMnwps0Gah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPidnNhwg=",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1807290438.540062,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "occ",
+      "value": "rfam%3A260305",
+      "domain": ".onliner.by",
+      "path": "/",
+      "expires": 1804266442.517621,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "stid",
+      "value": "67161f947466d059e574a53828d28ffc4a290a0248866d859f43025626d8e4ec",
+      "domain": ".onliner.by",
+      "path": "/",
+      "expires": 1804266442.703117,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUkkriLZgGRH-Uzsjr8Y2XEjWVipVj2ucZTxQlB5kxw_7DXyEH0dg4hcmFTr",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1806426443.545668,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.2113091539.1772730444",
+      "domain": ".onliner.by",
+      "path": "/",
+      "expires": 1807290443.619662,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_DS0NGVWG0Y",
+      "value": "GS2.1.s1772730443$o1$g0$t1772730443$j60$l0$h0",
+      "domain": ".onliner.by",
+      "path": "/",
+      "expires": 1807290443.619094,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_NG54S9EFTD",
+      "value": "GS2.1.s1772730443$o1$g0$t1772730443$j60$l0$h0",
+      "domain": ".onliner.by",
+      "path": "/",
+      "expires": 1807290443.629876,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_userGUID",
+      "value": "0:mmdpxont:96_QTDte2gu2eatYKcLypJaHqWiILDat",
+      "domain": ".onliner.by",
+      "path": "/",
+      "expires": 1807290443.809024,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ym_uid",
+      "value": "1772730444385320075",
+      "domain": ".onliner.by",
+      "path": "/",
+      "expires": 1804266444,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ym_d",
+      "value": "1772730444",
+      "domain": ".onliner.by",
+      "path": "/",
+      "expires": 1804266444,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sync_cookie_csrf",
+      "value": "1427457657fake",
+      "domain": ".mc.yandex.by",
+      "path": "/",
+      "expires": 1772731047,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bh",
+      "value": "EigiQ2hyb21pdW0iO3Y9IjE0NSIsICJOb3Q6QS1CcmFuZCI7dj0iOTkiKgI/MDoJIldpbmRvd3MiYM/wps0Gah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPidnNhwg=",
+      "domain": ".yandex.by",
+      "path": "/",
+      "expires": 1807290444.375994,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sync_cookie_csrf",
+      "value": "1487728824fake",
+      "domain": ".mc.yandex.com",
+      "path": "/",
+      "expires": 1772731047,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ym_isad",
+      "value": "2",
+      "domain": ".onliner.by",
+      "path": "/",
+      "expires": 1772802444,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sync_cookie_csrf",
+      "value": "3376621323fake",
+      "domain": ".mc.yandex.ru",
+      "path": "/",
+      "expires": 1772731047,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yandexuid",
+      "value": "8249716081772730441",
+      "domain": ".yandex.com",
+      "path": "/",
+      "expires": 1804266447,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yuidss",
+      "value": "8249716081772730441",
+      "domain": ".yandex.com",
+      "path": "/",
+      "expires": 1804266447,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "i",
+      "value": "02SfL29iKfy+DsrYBQHWvHpPsQEk/ZZhxwG+gKNpQwC6XW010ewJOlQbtzmO18t0AxvhiX/7uquPI4mRQTmcR1CmLS8=",
+      "domain": ".yandex.com",
+      "path": "/",
+      "expires": 1807290444.592617,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sync_cookie_ok",
+      "value": "synced",
+      "domain": ".mc.yandex.com",
+      "path": "/",
+      "expires": 1772816847,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yandexuid",
+      "value": "8249716081772730441",
+      "domain": ".yandex.by",
+      "path": "/",
+      "expires": 1807290444.594049,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yuidss",
+      "value": "8249716081772730441",
+      "domain": ".yandex.by",
+      "path": "/",
+      "expires": 1807290444.594205,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "i",
+      "value": "02SfL29iKfy+DsrYBQHWvHpPsQEk/ZZhxwG+gKNpQwC6XW010ewJOlQbtzmO18t0AxvhiX/7uquPI4mRQTmcR1CmLS8=",
+      "domain": ".yandex.by",
+      "path": "/",
+      "expires": 1807290444.594266,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sync_cookie_ok",
+      "value": "synced",
+      "domain": ".mc.yandex.by",
+      "path": "/",
+      "expires": 1772816847,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ymex",
+      "value": "1804266447.yrts.1772730447",
+      "domain": ".yandex.com",
+      "path": "/",
+      "expires": 1804266447,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "receive-cookie-deprecation",
+      "value": "1",
+      "domain": ".yandex.com",
+      "path": "/",
+      "expires": 1804266447,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://onliner.by",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "yabs-sid",
+      "value": "2076863481772730447",
+      "domain": "mc.yandex.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bh",
+      "value": "EigiQ2hyb21pdW0iO3Y9IjE0NSIsICJOb3Q6QS1CcmFuZCI7dj0iOTkiGgN4ODYiDDE0NS4wLjc2MzIuNioCPzA6CSJXaW5kb3dzIkIEMTAuMEoCNjRSNiJDaHJvbWl1bSI7dj0iMTQ1LjAuNzYzMi42IiwiTm90OkEtQnJhbmQiO3Y9Ijk5LjAuMC4wImDP8KbNBmoe3Mrh/wiS2KGxA5/P4eoD+/rw5w3r//32D4nZzYcI",
+      "domain": ".yandex.com",
+      "path": "/",
+      "expires": 1807290444.864228,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.onliner.by",
+      "localStorage": [
+        {
+          "name": "_ym_synced",
+          "value": "{\"com\":29545507,\"by\":29545507}"
+        },
+        {
+          "name": "_ym_retryReqs",
+          "value": "{}"
+        },
+        {
+          "name": "_ym1911064_lsid",
+          "value": "845305532743"
+        },
+        {
+          "name": "_ym_uid",
+          "value": "\"1772730444385320075\""
+        },
+        {
+          "name": "_ym5770612_lsid",
+          "value": "10527444227"
+        },
+        {
+          "name": "_ym1911064:0_reqNum",
+          "value": "2"
+        },
+        {
+          "name": "_ym5770612:0_reqNum",
+          "value": "2"
+        },
+        {
+          "name": "gbFeaturesCache",
+          "value": "[[\"https://growthbook-proxy.onliner.by||sdk-Bos30AlGLkAyIpKf\",{\"data\":{\"status\":200,\"features\":{},\"experiments\":[{\"key\":\"review-form-ivan\",\"changeId\":\"6970e537b4314df1e1d9c5fba96692ddbf26dee65a256a1a1d2c98ae5648fea5\",\"status\":\"running\",\"variations\":[{\"css\":\"\",\"js\":\"\",\"domMutations\":[]},{\"css\":\".offers-create .offers-form__description:nth-child(4),\\n.offers-create .offers-form__description:nth-child(5),\\n.offers-create .offers-form__description:nth-child(11),\\n.offers-create .offers-form__description:nth-child(10),\\n.offers-form__row:nth-child(13) .offers-form__line,\\n.offers-form__row:nth-child(12) .offers-form__line,\\n.offers-create .offers-form__description:nth-child(14),\\n.offers-form__divider_condensed-alter\\n{display:none}\\n\\n.offers-form__description ~ .offers-form__row:not(.ym-hide-content) {\\n  display: none;\\n}\\n\\n.offers-form__row.ym-hide-content + .offers-form__row, \\n.offers-form__row.ym-hide-content + .offers-form__row + .offers-form__row { \\n  display: block !important;\\n}\",\"js\":\"\",\"domMutations\":[]}],\"hashVersion\":2,\"hashAttribute\":\"ouid\",\"fallbackAttribute\":\"\",\"disableStickyBucketing\":false,\"bucketVersion\":1,\"minBucketVersion\":0,\"urlPatterns\":[{\"include\":true,\"type\":\"simple\",\"pattern\":\"*/reviews/create\"}],\"weights\":[0,1],\"meta\":[{\"key\":\"0\",\"name\":\"Control\"},{\"key\":\"1\",\"name\":\"Variation 1\"}],\"filters\":[],\"seed\":\"4ecef7f7-ff35-40be-a399-40870c730dd9\",\"name\":\"Product review form (ivan)\",\"phase\":\"0\",\"coverage\":1},{\"key\":\"product-recommend-scroll-ivan\",\"changeId\":\"7e66ba3342418bcc3ed9ff6a73edf386bb13581d83e4b357b7be56304cbfefc6\",\"status\":\"running\",\"variations\":[{\"css\":\"\",\"js\":\"\",\"domMutations\":[]},{\"css\":\"@media only screen and (max-width: 1000px) {\\n\\n.product-recommended > .responsive-layout .product-recommended__list {display: flex;}\\n.product-recommended > .product-recommended__list {display: flex; box-sizing: content-box; overflow-x: auto; overflow-y: hidden; margin-right: -16px;}\\n.product-recommended > .product-recommended__list > .product-recommended__item {width: 154px !important; flex-shrink: 0;}\\n\\n}\",\"js\":\"\",\"domMutations\":[]}],\"hashVersion\":2,\"hashAttribute\":\"ouid\",\"fallbackAttribute\":\"\",\"disableStickyBucketing\":false,\"bucketVersion\":1,\"minBucketVersion\":0,\"urlPatterns\":[{\"include\":true,\"type\":\"simple\",\"pattern\":\"https://catalog.onliner.by/*/*/*\"}],\"weights\":[0.5,0.5],\"meta\":[{\"key\":\"0\",\"name\":\"Control\"},{\"key\":\"1\",\"name\":\"Variation 1\"}],\"filters\":[],\"seed\":\"106818bf-92ea-4059-95fc-e9f28cd226ff\",\"name\":\"Product recommend scroll (ivan)\",\"phase\":\"0\",\"coverage\":1},{\"key\":\"test-copy\",\"changeId\":\"264827f69cb181dfc6245c197cf920700ae4c9ec7862cdb17410a29d7922a86e\",\"status\":\"draft\",\"variations\":[{\"css\":\"\",\"js\":\"\",\"domMutations\":[]},{\"css\":\"\",\"js\":\"(function () {\\n  const PARAM = 'is_by_parts';\\n  const VALUE = '1';\\n\\n  const target = document.querySelector('.catalog-form__filter-part.catalog-form__filter-part_2');\\n  if (!target) return;\\n\\n  let wrapper = document.getElementById('installment-switcher');\\n  if (wrapper) wrapper.remove();\\n\\n  wrapper = document.createElement('div');\\n  wrapper.id = 'installment-switcher';\\n  wrapper.style.display = 'flex';\\n  wrapper.style.alignItems = 'center';\\n  wrapper.style.gap = '8px';\\n  wrapper.style.cursor = 'pointer';\\n  wrapper.style.marginBottom = '8px';\\n\\n  const input = document.createElement('input');\\n  input.type = 'checkbox';\\n  input.style.cursor = 'pointer';\\n\\n  const label = document.createElement('span');\\n  label.textContent = 'Оплата частями';\\n  label.style.fontSize = '14px';\\n\\n  function syncWithUrl() {\\n    const url = new URL(window.location.href);\\n    input.checked = url.searchParams.get(PARAM) === VALUE;\\n  }\\n\\n  // начальная синхронизация\\n  syncWithUrl();\\n\\n  // при изменении свитчера\\n  input.addEventListener('change', function () {\\n    const url = new URL(window.location.href);\\n\\n    if (this.checked) {\\n      url.searchParams.set(PARAM, VALUE);\\n    } else {\\n      url.searchParams.delete(PARAM);\\n    }\\n\\n    window.location.href = url.toString();\\n  });\\n\\n  // отслеживаем изменения истории (назад/вперёд)\\n  window.addEventListener('popstate', syncWithUrl);\\n\\n  // периодическая проверка (если параметр убрали вручную без перезагрузки)\\n  let lastSearch = window.location.search;\\n  setInterval(() => {\\n    if (window.location.search !== lastSearch) {\\n      lastSearch = window.location.search;\\n      syncWithUrl();\\n    }\\n  }, 300);\\n\\n  wrapper.appendChild(input);\\n  wrapper.appendChild(label);\\n\\n  target.insertBefore(wrapper, target.firstChild);\\n})();\",\"domMutations\":[]}],\"hashVersion\":2,\"hashAttribute\":\"ouid\",\"fallbackAttribute\":\"\",\"disableStickyBucketing\":false,\"bucketVersion\":1,\"minBucketVersion\":0,\"urlPatterns\":[{\"include\":true,\"type\":\"simple\",\"pattern\":\"https://catalog.onliner.by/*\"}],\"weights\":[0,1],\"meta\":[{\"key\":\"0\",\"name\":\"Control\"},{\"key\":\"1\",\"name\":\"Variation 1\"}],\"filters\":[],\"seed\":\"ef40c056-9a63-426b-acd5-e0ccbddf168d\",\"name\":\"test (ivan)\",\"phase\":\"3\",\"condition\":{\"user_id\":{\"$in\":[\"368288\",\"462766\",\"3980249\",\"381342\",\"2171653\",\"625640\"]}},\"coverage\":1},{\"key\":\"product-gallery-top\",\"changeId\":\"363c5e629b56ef97737917e472f46a5620bef07d001c85da3aea83f54a8ec654\",\"status\":\"draft\",\"variations\":[{\"css\":\"\",\"js\":\"\",\"domMutations\":[]},{\"css\":\"\",\"js\":\"(() => {\\n  const OGVT_KEY = '__ogvt_gallery_thumb_photo_v2__';\\n  if (window[OGVT_KEY]) return;\\n  window[OGVT_KEY] = true;\\n\\n  const OGVT_MAX_W = 1000;\\n  if (window.matchMedia(`(min-width:${OGVT_MAX_W + 1}px)`).matches) return;\\n\\n  const OGVT_STYLE_ID = 'ogvt-gallery-thumb-photo-style-v2';\\n\\n  const OGVT_GALLERY_SEL = '.product-gallery';\\n  const OGVT_ANCHOR_SEL = '.offers-description__figure';\\n\\n  const OGVT_MAIN_SEL = '.product-gallery__main';\\n  const OGVT_THUMBS_SEL = '.product-gallery__thumbs';\\n  const OGVT_SWIPER_SEL = '.product-gallery__swiper';\\n  const OGVT_CLOSE_SEL = '.product-gallery__close';\\n\\n  const OGVT_ACTIVE_THUMB_SEL = '.product-gallery__thumb.swiper-slide-thumb-active';\\n  const OGVT_ACTIVE_SLIDE_IMG_SEL = '.product-gallery__swiper .swiper-slide-active img';\\n\\n  // CSS: фото рисуем через ::after у активного превью, превью не трогаем\\n  if (!document.getElementById(OGVT_STYLE_ID)) {\\n    const s = document.createElement('style');\\n    s.id = OGVT_STYLE_ID;\\n    s.textContent = `\\n      ${OGVT_ACTIVE_THUMB_SEL}{ position:relative; }\\n      ${OGVT_ACTIVE_THUMB_SEL}::after{\\n        content:'';\\n        position:absolute;\\n        bottom: calc(100% + 12px);\\n        left:50%;\\n        transform: translateX(-50%);\\n        width: calc(100vw - 32px);\\n        max-width: 360px;\\n        height: 220px;\\n        background-image: var(--ogvtActiveImg, none);\\n        background-repeat:no-repeat;\\n        background-position:center;\\n        background-size:contain;\\n        pointer-events:none;\\n        z-index: 5;\\n      }\\n    `;\\n    document.head.appendChild(s);\\n  }\\n\\n  let ogvtRaf = 0;\\n\\n  const ogvtSync = () => {\\n    ogvtRaf = 0;\\n\\n    const gallery = document.querySelector(OGVT_GALLERY_SEL);\\n    if (!gallery) return;\\n\\n    const thumbs = gallery.querySelector(OGVT_THUMBS_SEL);\\n    if (!thumbs) return;\\n\\n    const activeThumb = thumbs.querySelector(OGVT_ACTIVE_THUMB_SEL);\\n    if (!activeThumb) return;\\n\\n    // Пытаемся взять крупную картинку из основного слайдера, если она есть\\n    const activeBigImg = gallery.querySelector(OGVT_ACTIVE_SLIDE_IMG_SEL);\\n    const bigSrc = activeBigImg ? (activeBigImg.currentSrc || activeBigImg.src) : '';\\n\\n    // Фоллбек: берём src превью (если вдруг основная пустая)\\n    const thumbImg = activeThumb.querySelector('img');\\n    const thumbSrc = thumbImg ? (thumbImg.currentSrc || thumbImg.src) : '';\\n\\n    const src = bigSrc || thumbSrc;\\n    if (!src) return;\\n\\n    activeThumb.style.setProperty('--ogvtActiveImg', `url(\\\"${src}\\\")`);\\n  };\\n\\n  const ogvtScheduleSync = () => {\\n    if (ogvtRaf) return;\\n    ogvtRaf = requestAnimationFrame(ogvtSync);\\n  };\\n\\n  const ogvtInit = () => {\\n    const gallery = document.querySelector(OGVT_GALLERY_SEL);\\n    const anchor = document.querySelector(OGVT_ANCHOR_SEL);\\n    if (!gallery || !anchor) return false;\\n\\n    const main = gallery.querySelector(OGVT_MAIN_SEL);\\n    const thumbs = gallery.querySelector(OGVT_THUMBS_SEL);\\n    const swiper = gallery.querySelector(OGVT_SWIPER_SEL);\\n    if (!main || !thumbs || !swiper) return false;\\n\\n    // Скрыть якорь и крестик\\n    anchor.style.display = 'none';\\n    const closeBtn = gallery.querySelector(OGVT_CLOSE_SEL);\\n    if (closeBtn) closeBtn.style.display = 'none';\\n\\n    // Перенести всю галерею под offers-description__figure (как договаривались)\\n    if (anchor.nextElementSibling !== gallery) {\\n      anchor.insertAdjacentElement('afterend', gallery);\\n    }\\n\\n    // Фото-блок над превью (DOM-порядок), но превью не стилем не ломаем\\n    if (swiper.previousElementSibling !== null && swiper.previousElementSibling !== closeBtn) {\\n      // ничего\\n    }\\n    if (swiper.nextElementSibling === thumbs) {\\n      // уже ок\\n    } else {\\n      main.insertBefore(swiper, thumbs);\\n    }\\n\\n    // Если при входе активного превью нет — активируем первое\\n    if (!thumbs.querySelector(OGVT_ACTIVE_THUMB_SEL)) {\\n      const first = thumbs.querySelector('.product-gallery__thumb.swiper-slide');\\n      if (first) first.click();\\n    }\\n\\n    // Синк сразу и после пересчёта\\n    ogvtScheduleSync();\\n    setTimeout(() => {\\n      window.dispatchEvent(new Event('resize'));\\n      ogvtScheduleSync();\\n    }, 0);\\n\\n    // Лёгкая реакция на смену активного превью/слайда\\n    thumbs.addEventListener('click', ogvtScheduleSync, true);\\n    thumbs.addEventListener('pointerup', ogvtScheduleSync, true);\\n\\n    const thumbsWrap = thumbs.querySelector('.swiper-wrapper') || thumbs;\\n    const swiperWrap = swiper.querySelector('.swiper-wrapper') || swiper;\\n\\n    const mo = new MutationObserver(ogvtScheduleSync);\\n    mo.observe(thumbsWrap, { subtree: true, attributes: true, attributeFilter: ['class'] });\\n    mo.observe(swiperWrap, { subtree: true, attributes: true, attributeFilter: ['class'] });\\n\\n    return true;\\n  };\\n\\n  // Инициализация без вечных наблюдателей загрузки: до ~3 сек и стоп\\n  let ogvtFrames = 180;\\n  const ogvtTick = () => {\\n    if (ogvtInit()) return;\\n    ogvtFrames -= 1;\\n    if (ogvtFrames > 0) requestAnimationFrame(ogvtTick);\\n  };\\n  requestAnimationFrame(ogvtTick);\\n})();\",\"domMutations\":[]}],\"hashVersion\":2,\"hashAttribute\":\"ouid\",\"fallbackAttribute\":\"\",\"disableStickyBucketing\":false,\"bucketVersion\":1,\"minBucketVersion\":0,\"urlPatterns\":[{\"include\":true,\"type\":\"simple\",\"pattern\":\"https://catalog.onliner.by/*/*/*\"}],\"weights\":[0,1],\"meta\":[{\"key\":\"0\",\"name\":\"Control\"},{\"key\":\"1\",\"name\":\"Variation 1\"}],\"filters\":[],\"seed\":\"3f3f703a-c9ea-4602-a6ba-57b58dbd1649\",\"name\":\"Product gallery top (ivan)\",\"phase\":\"0\",\"condition\":{\"ouid\":\"snyBDmmUHAQSnfojCFRhAg==\"},\"coverage\":1},{\"key\":\"header-fix-desktop\",\"changeId\":\"886d804b516e5bc185e678ed471779035e8eed6c4380cf11d9384ea264460009\",\"status\":\"running\",\"variations\":[{\"css\":\"\",\"js\":\"\",\"domMutations\":[]},{\"css\":\"\",\"js\":\"(() => {\\n  const CFG_VISUAL = {\\n    rootSel: '.b-top-actions',\\n    innerSel: '.g-top-i',\\n    minWidth: 1024,\\n    fixedClass: 'b-top-actions-fixed-visual',\\n    styleId: 'b-top-actions-fixed-style-visual',\\n    bg: '#F1F1F1',\\n    z: 20,\\n    padTopBottom: 12,\\n    padRight: 20,\\n    padLeft: 275\\n  };\\n\\n  const rootVisual = document.querySelector(CFG_VISUAL.rootSel);\\n  if (!rootVisual) return;\\n\\n  // стили — один раз\\n  if (!document.getElementById(CFG_VISUAL.styleId)) {\\n    const styleVisual = document.createElement('style');\\n    styleVisual.id = CFG_VISUAL.styleId;\\n    styleVisual.textContent = `\\n      @media (min-width: ${CFG_VISUAL.minWidth}px) {\\n        .${CFG_VISUAL.fixedClass} {\\n          position: fixed;\\n          top: 0;\\n          left: 0;\\n          width: 100%;\\n          z-index: ${CFG_VISUAL.z};\\n          background: ${CFG_VISUAL.bg};\\n        }\\n        .${CFG_VISUAL.fixedClass} ${CFG_VISUAL.innerSel} {\\n          padding: ${CFG_VISUAL.padTopBottom}px ${CFG_VISUAL.padRight}px ${CFG_VISUAL.padTopBottom}px ${CFG_VISUAL.padLeft}px;\\n        }\\n      }\\n    `;\\n    document.head.appendChild(styleVisual);\\n  }\\n\\n  const mqlVisual = window.matchMedia(`(min-width: ${CFG_VISUAL.minWidth}px)`);\\n  let lastFixedVisual = null;\\n\\n  const applyStateVisual = (shouldFixVisual) => {\\n    if (lastFixedVisual === shouldFixVisual) return;\\n    lastFixedVisual = shouldFixVisual;\\n    rootVisual.classList.toggle(CFG_VISUAL.fixedClass, shouldFixVisual);\\n  };\\n\\n  const computeStateVisual = () => mqlVisual.matches && window.scrollY > 0;\\n\\n  const onScrollVisual = () => applyStateVisual(computeStateVisual());\\n\\n  // resize не нужен: matchMedia сам следит за шириной\\n  if (typeof mqlVisual.addEventListener === 'function') {\\n    mqlVisual.addEventListener('change', onScrollVisual);\\n  } else {\\n    mqlVisual.addListener(onScrollVisual); // старые браузеры\\n  }\\n\\n  window.addEventListener('scroll', onScrollVisual, { passive: true });\\n\\n  // стартовое состояние\\n  onScrollVisual();\\n})();\",\"domMutations\":[]}],\"hashVersion\":2,\"hashAttribute\":\"ouid\",\"fallbackAttribute\":\"\",\"disableStickyBucketing\":false,\"bucketVersion\":1,\"minBucketVersion\":0,\"urlPatterns\":[{\"include\":true,\"type\":\"simple\",\"pattern\":\"https://catalog.onliner.by/*\"}],\"weights\":[0.5,0.5],\"meta\":[{\"key\":\"0\",\"name\":\"Control\"},{\"key\":\"1\",\"name\":\"Variation 1\"}],\"filters\":[],\"seed\":\"d2c51bfb-58b3-42c4-9618-7e42adee8a8a\",\"name\":\"Header fix desktop (ivan)\",\"phase\":\"0\",\"coverage\":1},{\"key\":\"catalog-pay-parts\",\"changeId\":\"f88af1310ab80c834c5d6f2f5d15e620cb800f6731e33203c19eed4dd35ed628\",\"status\":\"running\",\"variations\":[{\"css\":\"\",\"js\":\"\",\"domMutations\":[]},{\"css\":\"\",\"js\":\"(function () {\\n  // ===== VisualTest: \\\"Оплата частями\\\" switcher =====\\n  const VT_PARTS = {\\n    id: 'vtByPartsSwitcher_180',\\n    value: '1',\\n    pCat: 'is_by_parts',\\n    pPrices: 'has_payment_by_parts',\\n    selCatMount: '.catalog-form__filter-part.catalog-form__filter-part_2',\\n    selPricesAnchor: '.offers-list__sorting',\\n    text: 'Оплата частями',\\n    width: '180px',\\n    height: '32px',\\n    marginBottom: '12px',\\n    activeColor: '#008EFF',\\n    icon: \\\"url('https://images.h1n.ru/api/pay-parts-glyph.png')\\\"\\n  };\\n\\n  // ===== DataLayer =====\\n  const VT_DL_EVENT = 'visual_experiment_event';\\n  const VT_DL_PARAM = 'param_3';\\n  function vtPushDL() {\\n    window.dataLayer = window.dataLayer || [];\\n    window.dataLayer.push({\\n      event: VT_DL_EVENT,\\n      param: VT_DL_PARAM\\n    });\\n  }\\n\\n  // исключаем /cat/*\\n  if (/^\\\\/cat\\\\/[^/]+/.test(location.pathname)) return;\\n\\n  // защита от повторной инициализации\\n  const VT_GUARD_KEY = '__vt_by_parts_switcher_init__';\\n  if (window[VT_GUARD_KEY]) return;\\n  window[VT_GUARD_KEY] = true;\\n\\n  function vtIsPricesPage(pathname) {\\n    return /\\\\/prices(?:\\\\/|$)/.test(pathname || location.pathname);\\n  }\\n\\n  function vtHasActiveParam(url) {\\n    return (\\n      url.searchParams.get(VT_PARTS.pCat) === VT_PARTS.value ||\\n      url.searchParams.get(VT_PARTS.pPrices) === VT_PARTS.value\\n    );\\n  }\\n\\n  function vtParamByPath(pathname) {\\n    return vtIsPricesPage(pathname) ? VT_PARTS.pPrices : VT_PARTS.pCat;\\n  }\\n\\n  function vtSetCheckedState(wrap, input, checked) {\\n    input.checked = checked;\\n    wrap.setAttribute('aria-checked', String(checked));\\n  }\\n\\n  function vtInjectStylesOnce() {\\n    const styleId = '__vt_by_parts_style__';\\n    if (document.getElementById(styleId)) return;\\n\\n    const style = document.createElement('style');\\n    style.id = styleId;\\n    style.textContent = `\\n      #${VT_PARTS.id} .i-checkbox__faux::before {\\n        content: \\\"\\\";\\n        display: block;\\n        width: 16px;\\n        height: 16px;\\n        background-image: ${VT_PARTS.icon};\\n        background-repeat: no-repeat;\\n        background-position: center;\\n        background-size: 16px 16px;\\n      }\\n      #${VT_PARTS.id}[aria-checked=\\\"true\\\"] .i-checkbox__faux {\\n        background: ${VT_PARTS.activeColor} !important;\\n        border-color: ${VT_PARTS.activeColor} !important;\\n      }\\n      #${VT_PARTS.id} {\\n        height: ${VT_PARTS.height} !important;\\n      }\\n    `;\\n    document.head.appendChild(style);\\n  }\\n\\n  function vtGetMount() {\\n    if (vtIsPricesPage()) {\\n      const anchor = document.querySelector(VT_PARTS.selPricesAnchor);\\n      return anchor && anchor.parentNode ? { mode: 'before', el: anchor } : null;\\n    }\\n    const mount = document.querySelector(VT_PARTS.selCatMount);\\n    return mount ? { mode: 'prepend', el: mount } : null;\\n  }\\n\\n  function vtBuild() {\\n    const wrap = document.createElement('span');\\n    wrap.id = VT_PARTS.id;\\n    wrap.className =\\n      'i-checkbox i-checkbox_switchbox i-checkbox_switchbox_decor offers-description__checkbox offers-description__checkbox_base-alter';\\n    wrap.style.display = 'inline-flex';\\n    wrap.style.alignItems = 'center';\\n    wrap.style.cursor = 'pointer';\\n    wrap.style.width = VT_PARTS.width;\\n    wrap.style.height = VT_PARTS.height;\\n    wrap.style.marginBottom = VT_PARTS.marginBottom;\\n    wrap.setAttribute('role', 'switch');\\n\\n    const input = document.createElement('input');\\n    input.type = 'checkbox';\\n    input.className = 'i-checkbox__real';\\n\\n    const faux = document.createElement('span');\\n    faux.className = 'i-checkbox__faux';\\n\\n    const text = document.createElement('span');\\n    text.className = 'offers-description__checkbox-text offers-description__checkbox-text_alter';\\n\\n    const sign = document.createElement('span');\\n    sign.className = 'offers-description__checkbox-sign';\\n    sign.textContent = VT_PARTS.text;\\n\\n    text.appendChild(sign);\\n    wrap.appendChild(input);\\n    wrap.appendChild(faux);\\n    wrap.appendChild(text);\\n\\n    wrap.addEventListener('click', function (e) {\\n      if (e.target === input) return;\\n      vtSetCheckedState(wrap, input, !input.checked);\\n      vtApplyToUrl(input.checked);\\n    });\\n\\n    input.addEventListener('change', function () {\\n      vtApplyToUrl(this.checked);\\n    });\\n\\n    return wrap;\\n  }\\n\\n  function vtApplyToUrl(checked) {\\n    const url = new URL(location.href);\\n    const hadActive = vtHasActiveParam(url);\\n    const param = vtParamByPath(url.pathname);\\n\\n    // dataLayer — только при активации (переход из неактивного в активный)\\n    if (checked && !hadActive) vtPushDL();\\n\\n    if (checked) url.searchParams.set(param, VT_PARTS.value);\\n    else url.searchParams.delete(param);\\n\\n    location.href = url.toString();\\n  }\\n\\n  function vtEnsureMounted() {\\n    const mount = vtGetMount();\\n    if (!mount) return false;\\n\\n    let wrap = document.getElementById(VT_PARTS.id);\\n    if (!wrap) wrap = vtBuild();\\n\\n    if (mount.mode === 'before') {\\n      if (wrap.nextSibling !== mount.el) mount.el.parentNode.insertBefore(wrap, mount.el);\\n    } else {\\n      if (mount.el.firstChild !== wrap) mount.el.insertBefore(wrap, mount.el.firstChild);\\n    }\\n\\n    return true;\\n  }\\n\\n  function vtSyncFromUrl() {\\n    const wrap = document.getElementById(VT_PARTS.id);\\n    if (!wrap) return;\\n\\n    const input = wrap.querySelector('input.i-checkbox__real');\\n    if (!input) return;\\n\\n    const url = new URL(location.href);\\n    const active = vtHasActiveParam(url);\\n\\n    vtSetCheckedState(wrap, input, active);\\n  }\\n\\n  // при клике на */prices с активным свитчером — добавляем ?has_payment_by_parts=1\\n  document.addEventListener(\\n    'click',\\n    function (e) {\\n      const a = e.target && e.target.closest ? e.target.closest('a') : null;\\n      if (!a) return;\\n\\n      let nextUrl;\\n      try {\\n        nextUrl = new URL(a.href, location.origin);\\n      } catch (_) {\\n        return;\\n      }\\n\\n      if (!vtIsPricesPage(nextUrl.pathname)) return;\\n      const nextParam = vtParamByPath(nextUrl.pathname);\\n\\n      const curUrl = new URL(location.href);\\n      if (!vtHasActiveParam(curUrl)) return;\\n\\n      if (nextUrl.searchParams.get(nextParam) === VT_PARTS.value) return;\\n\\n      e.preventDefault();\\n      nextUrl.searchParams.set(nextParam, VT_PARTS.value);\\n      location.href = nextUrl.toString();\\n    },\\n    true\\n  );\\n\\n  let vtTicking = false;\\n  function vtRefresh() {\\n    if (vtTicking) return;\\n    vtTicking = true;\\n    requestAnimationFrame(function () {\\n      vtTicking = false;\\n      if (vtEnsureMounted()) vtSyncFromUrl();\\n    });\\n  }\\n\\n  vtInjectStylesOnce();\\n  vtRefresh();\\n\\n  const vtMO = new MutationObserver(vtRefresh);\\n  vtMO.observe(document.documentElement, { childList: true, subtree: true });\\n\\n  window.addEventListener('popstate', vtRefresh);\\n\\n  (function () {\\n    const key = '__vt_by_parts_history_hook__';\\n    if (window[key]) return;\\n    window[key] = true;\\n\\n    const _push = history.pushState;\\n    const _repl = history.replaceState;\\n\\n    history.pushState = function () {\\n      const r = _push.apply(this, arguments);\\n      vtRefresh();\\n      return r;\\n    };\\n\\n    history.replaceState = function () {\\n      const r = _repl.apply(this, arguments);\\n      vtRefresh();\\n      return r;\\n    };\\n  })();\\n})();\\n\",\"domMutations\":[]}],\"hashVersion\":2,\"hashAttribute\":\"ouid\",\"fallbackAttribute\":\"\",\"disableStickyBucketing\":false,\"bucketVersion\":1,\"minBucketVersion\":0,\"urlPatterns\":[{\"include\":true,\"type\":\"simple\",\"pattern\":\"https://catalog.onliner.by/*\"},{\"include\":true,\"type\":\"simple\",\"pattern\":\"https://catalog.onliner.by/*/*/*/prices\"}],\"weights\":[0,1],\"meta\":[{\"key\":\"0\",\"name\":\"Control\"},{\"key\":\"1\",\"name\":\"Variation 1\"}],\"filters\":[],\"seed\":\"905b3321-0dd7-46ff-9305-e33920b1343e\",\"name\":\"Catalog pay parts (dima)\",\"phase\":\"2\",\"condition\":{\"ouid\":{\"$in\":[\"snyBDmmUHAQSnfojCFRhAg==\",\"snyBDGmDCP0UpzKXBZuoAg==\",\"snyBDGlmMHSeHzBLCwqDAg==\"]}},\"coverage\":1},{\"key\":\"product-fast-order\",\"changeId\":\"9c6be193d6647e024a0cdd013a2e9568e2d111119c0b14d56d5ebba98951fd3d\",\"status\":\"running\",\"variations\":[{\"css\":\"\",\"js\":\"\",\"domMutations\":[]},{\"css\":\"\",\"js\":\"(function () {\\n  const s = document.createElement('script');\\n  s.src = 'https://images.h1n.ru/api/fast-order/client.js?' + Date.now();\\n  s.async = true;\\n  document.documentElement.appendChild(s);\\n})();\\n\",\"domMutations\":[]}],\"hashVersion\":2,\"hashAttribute\":\"ouid\",\"fallbackAttribute\":\"\",\"disableStickyBucketing\":false,\"bucketVersion\":1,\"minBucketVersion\":0,\"urlPatterns\":[{\"include\":true,\"type\":\"simple\",\"pattern\":\"https://catalog.onliner.by/*/*/*\"},{\"include\":true,\"type\":\"simple\",\"pattern\":\"https://catalog.onliner.by/*/*/*/prices\"}],\"weights\":[0.5,0.5],\"meta\":[{\"key\":\"0\",\"name\":\"Control\"},{\"key\":\"1\",\"name\":\"Variation 1\"}],\"filters\":[],\"seed\":\"ed4a39e0-af48-4312-8aeb-f71cb29331be\",\"name\":\"Product fast order (evgeni)\",\"phase\":\"7\",\"coverage\":1}],\"dateUpdated\":\"2026-03-05T07:56:09.246Z\"},\"version\":\"2026-03-05T07:56:09.246Z\",\"staleAt\":\"2026-03-05T17:08:19.509Z\",\"sse\":true}]]"
+        }
+      ]
+    }
+  ]
+}

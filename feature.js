@@ -54,3 +54,7 @@ function splitNumberToParts(number, parts) {
 }
 
 splitNumberToParts(20, 4)
+
+
+console.log(__dirname)
+console.log(__filename)
