@@ -1,25 +1,31 @@
 import { Base } from './base';
 import {Navigation} from './components/navigation'
+import {Table} from './components/table'
 
 class AdminPage extends Base {
     constructor(page) {
         super(page);
         this.navigation = new Navigation(page)
+        this.table = new Table(page)
     }
     get adminNameField() {
-        return '.oxd-form-row .oxd-input.oxd-input--active'
+        return this.page.locator('.oxd-form-row .oxd-input.oxd-input--active')
     }
 
     get employeeNameFiled() {
-        return '[placeholder="Type for hints..."]'
+        return this.page.locator('[placeholder="Type for hints..."]')
     }
 
     get searchButton(){
-        return '.oxd-button--secondary.orangehrm-left-space'
+        return this.page.locator('.oxd-button--secondary.orangehrm-left-space')
     }
 
     get searchResults() {
         return this.page.locator('.orangehrm-vertical-padding .oxd-text.oxd-text--span')
+    }
+
+    get resetButton() {
+        return this.page.locator("button", {hasText: "Reset"})
     }
 
     async fillSearchFields(options) {
@@ -35,6 +41,10 @@ class AdminPage extends Base {
         await this.fillSearchFields(options);
         await this.searchButton.click();
     }
+
+    // async clickResetButton() {
+    //     await this.resetButton.click()
+    // }
 }
 
 export {AdminPage}

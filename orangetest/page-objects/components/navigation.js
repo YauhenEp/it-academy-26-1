@@ -2,7 +2,7 @@ import { Base } from '../base';
 
 class Navigation extends Base {
     constructor(page) {
-        super(page)
+        super(page);
     }
 
     get menuItems() {
@@ -22,7 +22,7 @@ class Navigation extends Base {
     }
 
     async getMenuItemByName(itemName) {
-        const locatorText = `//*[contains(@class, 'oxd-main-menu-item--name') and text()='${itemName}}']//ancestor::a`
+        const locatorText = `//*[contains(@class, 'oxd-main-menu-item--name') and text()='${itemName}']//ancestor::a`
         return this.page.locator(locatorText)
     }
 

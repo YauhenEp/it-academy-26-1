@@ -15,8 +15,16 @@ class Base {
   }
 
   async selectDropdownOption(dropdownName, selectedElement) {
-    await this.getDropdownByName(dropdownName).click();
-    await this.getDropdownOptionByName(selectedElement).click();
+    await (await this.getDropdownByName(dropdownName)).click();
+    await (await this.getDropdownOptionByName(selectedElement)).click();
+  }
+
+  async clickElement(webElement) {
+    await webElement.click()
+  }
+
+  async getTextFromElement(webElement) {
+    return webElement.innerText();
   }
 }
 
