@@ -26,15 +26,15 @@ test.describe('Admin page tests', () => {
     test('should search admin be parameter', async ({page}) => {
         await adminPage.navigation.goToPageByName('Admin');
         await adminPage.searchWithData(adminSearchOption);
-        await expect(await adminPage.searchResults).toHaveText('(1) Record Found', {timeout: 10000});
+        await expect(await adminPage.numberOfItems).toHaveText('(1) Record Found', {timeout: 10000});
     })
 
     test('should reset all searches when press button reset', async () => {
         await adminPage.navigation.goToPageByName('Admin');
-        const textBeforeSearch = await adminPage.getTextFromElement(adminPage.searchResults);
+        const textBeforeSearch = await adminPage.getTextFromElement(adminPage.numberOfItems);
         await adminPage.searchWithData(adminSearchOption);
-        await expect.soft(await adminPage.searchResults).toHaveText('(1) Record Found', {timeout: 10000});
+        await expect.soft(await adminPage.numberOfItems).toHaveText('(1) Record Found', {timeout: 10000});
         await adminPage.clickElement(await adminPage.resetButton);
-        await expect(await adminPage.searchResults).toHaveText(textBeforeSearch);
+        await expect(await adminPage.numberOfItems).toHaveText(textBeforeSearch);
     })
 })

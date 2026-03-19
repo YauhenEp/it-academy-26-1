@@ -25,17 +25,22 @@ test.describe.only('Table tests', () => {
 
     test('should check tables', async ({page}) => {
         await adminPage.navigation.goToPageByName('Admin');
-        await adminPage.table.checkCheckboxesByUsernames(['FMLName1', 'marks', 'Jobinsam@6742']);
+        await adminPage.table.checkCheckboxesByUsernames(['FMLName1', 'FMLName', 'Jobinsam@6742']);
         await expect(await adminPage.searchResults).toHaveText('(3) Records Selected', {timeout: 10000});
         await expect(await adminPage.table.deleteSelectedButton).toBeVisible();
     })
 
-    // test('should reset all searches when press button reset', async () => {
-    //     await adminPage.navigation.goToPageByName('Admin');
-    //     const textBeforeSearch = await adminPage.getTextFromElement(adminPage.searchResults);
-    //     await adminPage.searchWithData(adminSearchOption);
-    //     await expect.soft(await adminPage.searchResults).toHaveText('(1) Record Found', {timeout: 10000});
-    //     await adminPage.clickElement(await adminPage.resetButton);
-    //     await expect(await adminPage.searchResults).toHaveText(textBeforeSearch);
-    // })
+    test('should be visible delete selection button on the PIM page', async ({page}) => {
+        await adminPage.navigation.goToPageByName('PIM');
+        await adminPage.table.checkCheckboxesByRowNumbers([1, 2, 3]);
+        await expect(await adminPage.searchResults).toHaveText('(3) Records Selected', {timeout: 10000});
+        await expect(await adminPage.table.deleteSelectedButton).toBeVisible();
+    })
+
+    test('should remove item from table', async ({page}) => {
+        await adminPage.navigation.goToPageByName('Recruitment');
+        const numberItemsBeforeDelete = await adminPage.getTextFromElement(adminPage.numberOfItems);
+        await adminPage.table.deleteItemFromTableByRowNumber(0);
+        await expect(await adminPage.getTextFromElement(adminPage.numberOfItems)).toEqual(numberItemsBeforeDelete);
+    })
 })

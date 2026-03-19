@@ -14,19 +14,19 @@ class Table extends Base {
     }
 
     async getCheckboxByRowNumber(tableRowNumber) {
-        return this.page.locator('.oxd-table-row').nth(tableRowNumber).locator('input[type="checkbox"]')
+        return this.page.locator('.oxd-table-card').nth(tableRowNumber).locator('.oxd-checkbox-input--active')
     }
 
     async getTrashIconByRowNumber(tableRowNumber) {
-        return this.page.locator('.oxd-table-row').nth(tableRowNumber).locator('.bi-trash')
+        return this.page.locator('.oxd-table-card').nth(tableRowNumber).locator('.bi-trash')
     }
 
     async getEditButtonByRowNumber(tableRowNumber) {
-        return this.page.locator('.oxd-table-row').nth(tableRowNumber).locator('.bi-pencil-fill')
+        return this.page.locator('.oxd-table-card').nth(tableRowNumber).locator('.bi-pencil-fill')
     }
 
     async getCheckboxByUsername(userName) {
-        return this.page.locator(`//*[text()='${userName}']//ancestor::*[contains(@class,'oxd-table-row')]//*[contains(@class,'oxd-checkbox-input--active --label-righ')]`)
+        return this.page.locator(`//*[text()='${userName}']//ancestor::*[contains(@class,'oxd-table-row')]//*[contains(@class,'oxd-checkbox-input--active')]`)
     }
 
     async getTrashIconByUsername(userName) {
@@ -45,16 +45,32 @@ class Table extends Base {
         return this.page.locator('.oxd-button--label-danger.orangehrm-horizontal-margin')
     }
 
+    get deleteButton() {
+        return this.page.locator('.orangehrm-dialog-popup .oxd-button--label-danger')
+    }
+
     async checkCheckboxesByRowNumbers(tableRowNumbers) {
+        await this.page.waitForLoadState('domcontentloaded');
         for (const rowNumber of tableRowNumbers) {
             await (await this.getCheckboxByRowNumber(rowNumber)).click()
         }
     }   
 
     async checkCheckboxesByUsernames(userNames) {
+        await this.page.waitForLoadState('domcontentloaded');
         for (const userName of userNames) {
             await (await this.getCheckboxByUsername(userName)).click()
         }
+    }
+
+    async deleteItemFromTableByRowNumber(tableRowNumber) {
+        await (await this.getTrashIconByRowNumber(tableRowNumber)).click();
+        await this.clickElement(await this.deleteButton);
+    }
+
+    async deleteItemFromTableById(tableItemId) {
+        await (await this.getTrashIconByUsername(tableItemId)).click();
+        await this.clickElement(await this.deleteButton);
     }
 }
 

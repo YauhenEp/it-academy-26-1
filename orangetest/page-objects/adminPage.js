@@ -16,11 +16,11 @@ class AdminPage extends Base {
         return this.page.locator('[placeholder="Type for hints..."]')
     }
 
-    get searchButton(){
+    get searchButton() {
         return this.page.locator('.oxd-button--secondary.orangehrm-left-space')
     }
 
-    get searchResults() {
+    get numberOfItems() {
         return this.page.locator('.orangehrm-vertical-padding .oxd-text.oxd-text--span')
     }
 
