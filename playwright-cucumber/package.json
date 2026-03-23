@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "playwright": "^1.58.2",
+    "playwright-cucumber": "^1.0.15"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+  },
+  "scripts": {
+    "test": "cucumber-js --require step-definitions/*.js --require utils/hooks.js"
+  }
+}
