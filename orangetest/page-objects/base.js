@@ -7,11 +7,11 @@ class Base {
   }
 
   async getDropdownByName(dropdownName) {
-    return this.page.locator(`//*[@class='oxd-label' and text()="${dropdownName}"]/../following-sibling::div//*[@class='oxd-select-text-input']`)
+    return this.page.locator(`//*[@class='oxd-label' and text()="${dropdownName}"]/../following-sibling::div//*[@class='oxd-select-text-input']`);
   }
 
   async getDropdownOptionByName(dropdownOption) {
-    return this.page.locator(`//*[@class='oxd-select-option']/*[text()='${dropdownOption}']`)
+    return this.page.locator(`//*[@class='oxd-select-option']/*[text()='${dropdownOption}']`);
   }
 
   async selectDropdownOption(dropdownName, selectedElement) {
@@ -20,7 +20,7 @@ class Base {
   }
 
   async clickElement(webElement) {
-    await webElement.click()
+    await webElement.click();
   }
 
   async getTextFromElement(webElement) {

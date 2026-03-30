@@ -14,14 +14,14 @@ class LoginPage extends Base {
   }
 
   get loginButton() {
-    return '.orangehrm-login-button'
+    return '.orangehrm-login-button';
   }
 
   async login(username, password) {
-    await this.page.locator(this.usernameField).fill(username)
-    await this.page.locator(this.passwordField).fill(password)
-    await this.page.locator(this.loginButton).click()
+    await this.page.locator(this.usernameField).fill(username);
+    await this.page.locator(this.passwordField).fill(password);
+    await this.page.locator(this.loginButton).click();
   }
 }
 
-export {LoginPage}
+export { LoginPage };

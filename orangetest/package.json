@@ -3,15 +3,29 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "check": "eslint */*.js",
+    "fix": "eslint */*.js --fix"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "husky": "^9.1.7",
     "playwright": "^1.58.2"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.58.2",
-    "@types/node": "^25.3.3"
+    "@types/node": "^25.3.3",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0",
+    "prettier": "^3.8.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run check",
+      "pre-push": "npm run check"
+    }
   }
 }

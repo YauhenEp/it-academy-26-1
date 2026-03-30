@@ -39,9 +39,9 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { 
+      use: {
         ...devices['Desktop Chrome'],
-        // storageState: '.auth/login.json' 
+        // storageState: '.auth/login.json'
       },
       // dependencies: ['login'],
     },
@@ -90,4 +90,3 @@ export default defineConfig({
   //   reuseExistingServer: !process.env.CI,
   // },
 });
-

@@ -1,3 +1,3 @@
 function getElementByLanguage(elementName) {
-    return file[elementName][language]
+  return file[elementName][language];
 }
