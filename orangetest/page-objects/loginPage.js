@@ -17,6 +17,11 @@ class LoginPage extends Base {
     return '.orangehrm-login-button';
   }
 
+  /**
+   * 
+   * @param {*} username 
+   * @param {*} password 
+   */
   async login(username, password) {
     await this.page.locator(this.usernameField).fill(username);
     await this.page.locator(this.passwordField).fill(password);
