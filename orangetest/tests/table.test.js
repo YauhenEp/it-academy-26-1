@@ -36,8 +36,8 @@ test.describe.only('Table tests', () => {
   });
 
   test('should remove item from table', async ({ page }) => {
-    await adminPage.navigation.goToPageByName('Recruitment');
-    const numberItemsBeforeDelete = await adminPage.getTextFromElement(adminPage.numberOfItems);
+    await adminPage.navigation.goToPageByName('Recruitment')
+    const numberItemsBeforeDelete = await adminPage.getTextFromElement(adminPage.numberOfItems)
     await adminPage.table.deleteItemFromTableByRowNumber(0);
     await expect(await adminPage.getTextFromElement(adminPage.numberOfItems)).toEqual(numberItemsBeforeDelete);
   });

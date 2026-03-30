@@ -57,8 +57,8 @@ class AdminPage extends Base {
    * @param {*} options 
    */
   async searchWithData(options) {
-    await this.fillSearchFields(options);
-    await this.searchButton.click();
+    await this.fillSearchFields(options)
+    await this.searchButton.click()
   }
 
   // async clickResetButton() {
