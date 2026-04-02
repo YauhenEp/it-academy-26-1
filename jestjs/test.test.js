@@ -58,6 +58,15 @@ describe('Our first test suite', function() {
         expect(mock).toHaveBeenCalledTimes(1)
     })
 
+    it('should be key square in new objects', async() => {
+        const newArr = calculateSquare(ssa1)
+        for(let ssa of newArr) {
+            expect(ssa).toHaveProperty('name')
+            expect(ssa).toHaveProperty('square')
+        }
+        expect(newArr[0]).toHaveProperty(false)
+    })
+
     // it('should be key square in new objects', async() => {
     //     const newArr = calculateSquare(ssa1)
     //     for(let ssa of newArr) {
