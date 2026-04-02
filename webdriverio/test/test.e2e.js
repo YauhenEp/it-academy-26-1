@@ -7,6 +7,7 @@ describe('Onliner login', async function () {
         await homePage.navigate('https://www.onliner.by/');
         await homePage.header.goToLoginPage();
         await loginPage.login(CREDENTIALS.invalidCredentials.login, CREDENTIALS.invalidCredentials.password);
+        await homePage.clickElement();
         await expect(await loginPage.wrongCredentialNotification).toHaveText(WRONG_CREDENTIAL_NOTIFICATION);
   });
 });
