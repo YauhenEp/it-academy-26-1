@@ -55,7 +55,6 @@ describe('Our first test suite', function() {
     it('should check mock function', async () => {
         expect(mock).toHaveBeenCalledTimes(0)
         mock()
-        mock()
         expect(mock).toHaveBeenCalledTimes(1)
     })
 
