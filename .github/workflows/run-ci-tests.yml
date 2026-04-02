@@ -6,7 +6,21 @@ on:
   pull_request:
     branches: 
       - "**"
-  
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to run tests on'
+        required: true
+        default: 'main'
+      env:
+        description: 'Environment to run tests in'
+        required: true
+        default: 'test'
+        options:
+          - dev
+          - test
+          - staging
+          - production
 jobs:
   test:
     runs-on: ubuntu-latest
